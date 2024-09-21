@@ -1,0 +1,19 @@
+<!-- Table to display messages -->
+<table class="ui celled table">
+  <thead>
+    <tr>
+      <th>名前</th>
+      <th>メッセージ</th>
+      <th>デリート</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each messages}}
+    <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.message}}</td>
+      <td><a href="/message/deletemessage/{{id}}" class="ui icon button delmessage"><i class="icon trash"></i></a></td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

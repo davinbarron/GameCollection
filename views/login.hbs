@@ -1,0 +1,13 @@
+{{> welcomemenu id='login' }}
+
+<form class="ui inverted stacked segment form" action="/authenticate" method="POST">
+  <h3 class="ui header">ログイン</h3>
+  <div class="field">
+    <label for="email">電子メール</label> <input placeholder="Email" name="email" autofocus required>
+  </div>
+  <div class="field">
+    <label for="password">パスワード</label> <input type="password"  name="password" required >
+  </div>
+  <button class="ui blue submit button">ログイン<i class="sign-in icon"></i></button>
+</form>
+

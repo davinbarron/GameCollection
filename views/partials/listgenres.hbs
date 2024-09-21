@@ -1,0 +1,62 @@
+<table class="ui grey inverted fixed striped table">
+  <thead>
+    <tr>
+      <th class="three wide">タイトル</th>
+      <th class="three wide">デベロッパー</th>
+      <th class="three wide">出版社</th>
+      <th class="three wide">ジャンル</th>
+      <th class="three wide">リリース</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each game.genres}}
+    <form class = "ui stacked segment form" action="/game/{{../game.id}}/updategenre/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="title" autofocus required title = "有効なタイトルをご記入ください" placeholder="タイトル" value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="developer" required title = "有効なデベロッパーを記載してください" placeholder="デベロッパー" value = "{{developer}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="publisher" required title = "有効な出版社をご記入ください" placeholder="出版社" value = "{{publisher}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="genre" autofocus required title = "有効なジャンルをご記入ください" placeholder="ジャンル" value = "{{genre}}">         
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="release" required title = "有効なリリースを入力してください" placeholder="リリース" value = "{{release}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/game/{{../game.id}}/deletegenre/{{id}}" class="ui icon button delgenre">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id="rateit">
+  評価してください <i class="star icon"></i>
+</button>

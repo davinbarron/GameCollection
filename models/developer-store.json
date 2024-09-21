@@ -1,0 +1,31 @@
+{"developers":
+  [
+    {
+      "name":"宮崎",
+      "fullname":"宮崎英隆",
+      "image":"https://static.tvtropes.org/pmwiki/pub/images/miyazaki.jpg",
+      "joined":2010,
+      "job":"ウェブデベロッパー",
+      "city":"東京",
+      "mates":35
+    },
+    {
+      "name":"桜",
+      "fullname":"桜庭基",
+      "image":"https://cdns-images.dzcdn.net/images/artist/675791b2612a83efd3b1619421e415ff/500x500.jpg",
+      "joined":2009,
+      "job":"アートディレクター",
+      "city":"東京",
+      "mates":22
+    },
+    {
+      "name":"椎名",
+      "fullname":"椎名豪",
+      "image":"https://cdns-images.dzcdn.net/images/artist/7c2049107c01b49c3847c8334bc76154/500x500.jpg",
+      "joined":2008,
+      "job":"リサーチアシスタント",
+      "city":"東京",
+      "mates":26
+    }
+  ]
+}

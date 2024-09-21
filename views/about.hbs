@@ -1,0 +1,41 @@
+{{> menu id="about"}}
+
+<section class="ui grey inverted center aligned middle aligned segment">
+  <h2 class="ui header">
+    ゲームアプリチームです:
+  </h2>
+
+  <div class="ui centered cards">
+    {{#each developers}}
+      {{> card}}
+    {{/each}}
+  </div>
+  
+  <div class="ui divider"></div>
+  
+    <div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="eight wide column">
+            <h3 class="ui header">私たちは何者なのか？</h3>
+          <p class="company">
+            GameApp Inc.は、世界中の人々と夢や楽しみ、感動を共有するために存在しています。バンダイナムコは、ユニークで楽しい商品とサービスで人と社会をつなぎ、すべての人の明るい未来を創造していきます。
+          </p>
+          <h3 class="ui header">日本全国にある国内企業です!</h3>
+          <p class="company">
+            オフィスの中に入って、スタッフとおしゃべりするのも大歓迎です。お気軽にお立ち寄りください。
+          </p>
+        </div>
+        <div class="six wide right floated column">
+          <img src="https://www.pngitem.com/pimgs/m/254-2542076_japan-map-png-transparent-png.png" class="ui medium bordered rounded image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="center aligned column">
+          <a class="ui blue huge button" onclick="window.location.href='https://game-collection.glitch.me';">私たちをチェックする</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+</section>

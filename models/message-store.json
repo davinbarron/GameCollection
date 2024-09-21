@@ -1,0 +1,44 @@
+{
+  "messageCollection": [
+    {
+      "id": "27424017-3b8c-4cfc-8bce-4f2c5a62db31",
+      "name": "Ryan Falconer",
+      "message": "This place is lit!"
+    },
+    {
+      "id": "81fcfec1-0afc-46ca-81d0-54ff3c5e5e10",
+      "name": "Davin Barron",
+      "message": "This app is really cool!"
+    },
+    {
+      "id": "7cffe539-7a84-4a0c-88e9-c851a7b14c9a",
+      "name": "Ryan Walsh",
+      "message": "Nice!"
+    },
+    {
+      "id": "db3bcea1-e4e2-4e0d-bcdb-3b7e66f25c0f",
+      "name": "Oskar Szopinski",
+      "message": "Literally can't understand a thing! Cool :)"
+    },
+    {
+      "id": "8beb0a54-02a4-4c9b-8d18-8b6e24a68986",
+      "name": "Oskar 2",
+      "message": "This is nice"
+    },
+    {
+      "id": "b45104f4-021a-4a40-a343-f56c124ce495",
+      "name": "Oskar 2",
+      "message": "This is nice"
+    },
+    {
+      "id": "53d0781e-be3d-4340-9d19-55e904e6f4d8",
+      "name": "Oskar 2",
+      "message": "This is nice"
+    },
+    {
+      "id": "3042b5e4-27f5-45f4-bc29-46811d790005",
+      "name": "test",
+      "message": "test message"
+    }
+  ]
+}

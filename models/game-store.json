@@ -1,0 +1,80 @@
+{
+  "gameCollection": [
+    {
+      "id": "e13f3245-bffa-4a43-8bce-a862c02fc671",
+      "title": "Call of Duty",
+      "genres": [
+        {
+          "id": "a6467e45-b37b-4349-ba54-e35b4ad3c0b2",
+          "title": "Call of Duty",
+          "developer": "Infinity Ward",
+          "publisher": "Activision",
+          "genre": "FPS",
+          "release": "2003"
+        },
+        {
+          "id": "e44c9894-5640-4930-858d-76e414473bab",
+          "title": "Call of Duty 2",
+          "developer": "Infinity Ward",
+          "publisher": "Activision",
+          "genre": "FPS",
+          "release": "2005"
+        }
+      ],
+      "userid": "ed4b676d-2861-4b28-b980-a9b50eab66c3",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1682444151/laqedrqkbmtdatr7wikg.jpg",
+      "date": "2023-04-25T17:35:50.890Z"
+    },
+    {
+      "id": "419aacac-d131-4ece-b332-820e71148664",
+      "title": "Battlefield",
+      "genres": [
+        {
+          "id": "0e1d6d23-6188-45de-901e-3dc62f8f49b9",
+          "title": "Battlefield 1",
+          "developer": "Dice",
+          "publisher": "EA",
+          "genre": "FPS",
+          "release": "2016"
+        }
+      ],
+      "userid": "ed4b676d-2861-4b28-b980-a9b50eab66c3",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1682447122/unouooz3ib7feacyux1y.jpg",
+      "date": "2023-04-25T18:25:22.400Z"
+    },
+    {
+      "id": "069de1a7-86e6-4c94-acac-15fc80d1c4cc",
+      "title": "Grand Theft Auto",
+      "genres": [
+        {
+          "id": "69c823bb-bc8a-4748-abb2-0bda58a5fc40",
+          "title": "GTAIV",
+          "developer": "Rockstar",
+          "publisher": "Rockstar",
+          "genre": "RPG",
+          "release": "2013"
+        }
+      ],
+      "userid": "f3b1c625-89dd-4a9a-b4da-37e9e85c7064",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1683106682/pfv5z9rr8igax54vgx5i.png",
+      "date": "2023-05-03T09:38:02.107Z"
+    },
+    {
+      "id": "ca5ab58a-30ee-40a3-9e6d-a82aff1858ca",
+      "title": "test",
+      "genres": [
+        {
+          "id": "e2ea83c5-229b-4c2e-b728-8f52dc765d41",
+          "title": "test",
+          "developer": "test",
+          "publisher": "test",
+          "genre": "test",
+          "release": "teest"
+        }
+      ],
+      "userid": "f05c2c58-85ee-48c1-8706-5bef776cbfa7",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1685023524/cltehuyulzs7uweipecp.jpg",
+      "date": "2023-05-25T14:05:24.019Z"
+    }
+  ]
+}
