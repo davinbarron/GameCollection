@@ -1,0 +1,129 @@
+{{> menu}}
+
+<section class="ui grey inverted two column grid segment">
+  <div class="ui column">
+      <h2>ゲームアプリへようこそ! {{fullname}}!</h2>
+        <p>
+          このアプリは、ユーザーがゲームのコレクションを作成し、維持することができます。
+        </p>
+        <div class="buttons">
+          <button class="ui blue button" onclick="showHide()">
+            もっと読む <i class="arrow circle right icon"></i>
+          </button>
+          <button class="ui green button">
+            気に入った？ <i class="thumbs up icon"></i>
+          </button>
+          <button class="ui red button" onclick="welcomeUser()">
+            あなたは誰ですか？ <i class="user icon"></i>
+          </button>
+        </div>
+    
+      <div id="readmore" class="ui message">
+        <p>
+          これは、お気に入りのビデオゲームをもとにデータを保存できるようになるアプリです。
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+
+      <div class="ui divider"></div>
+
+    <h3 class="ui center aligned header">ゲームアプリに収録されるようになりました。</h3>
+      <div class="ui small statistics">
+        <div class="ui teal statistic">
+          <div class="value">
+            <i class="gamepad icon"></i> 
+          </div>
+          <div class="label">
+            {{totalgames}} ゲーム
+          </div>
+        </div>
+        <div class="ui violet statistic">
+          <div class="value">
+            <i class="steam icon"></i> 
+          </div>
+          <div class="label">
+           {{totalgenres}} タイプ
+          </div>
+        </div>
+        <div class="ui yellow statistic">
+          <div class="value">
+            <i class="folder open icon"></i> 
+          </div>
+          <div class="label">
+            平均ゲーム数 {{average}} 
+          </div>
+        </div>
+        
+      </div>
+  
+    <div id = "tablestats" class="ui tiny statistics">
+      <div class="ui pink statistic">
+        <div class="label">
+            最もゲーム数が多いジャンル
+        </div>
+        <div class="text value">
+            {{largest}}
+        </div>
+         </div>
+    <div class="ui orange statistic">
+        <div class="label">
+            ゲーム数が少ないジャンル
+        </div>
+        <div class="text value">
+            {{smallest}}
+        </div>
+    </div>
+    </div>
+    
+      </div>
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+              <img
+                class="ui small circular image"
+                src="https://d.newsweek.com/en/full/912920/battlefield-1-weapons-crate-update.jpg?w=1600&h=900&q=88&f=094649b84eae6f838baecef44168c700"
+              />
+            </div>
+            <div class="ui eight wide column">
+              <img
+                class="ui small circular image"
+                src="https://cdn.mos.cms.futurecdn.net/D9Rc7WScyaxmDJ4rJrcnzj.jpg"
+              />
+            </div>
+            <div class="ui eight wide column">
+              <img
+                class="ui small circular image"
+                src="https://media.wired.com/photos/639bf35a24c352e627eccc43/master/pass/Ragnaro%CC%88k-culture-ar1qdh.jpg"
+              />
+            </div>
+            <div class="ui eight wide column">
+              <img
+                class="ui small circular image"
+                src="https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg"
+              />
+            </div>
+    </div>
+    
+          <div class="ui divider"></div>
+
+      <h3 class="ui center aligned header">ゲームアプリもあります：</h3>
+      <div class="ui two statistics">
+          <div class="ui huge statistic">
+              <div class="value">
+                  {{totalgames}}
+              </div>
+              <div class="label">
+                  ゲーム
+              </div>
+          </div>
+          <div class="ui huge statistic">
+              <div class="value">
+                  {{totalusers}}
+              </div>
+              <div class="label">
+                  ユーザー
+              </div>
+          </div>
+      </div>
+    </div>  
+</section>

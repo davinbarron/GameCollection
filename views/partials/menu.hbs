@@ -1,0 +1,16 @@
+<nav class="ui inverted menu">
+  <header class="ui header item"><a href="/">ゲームアプリ<img src="https://icons.veryicon.com/png/o/object/color-game-icon/game-controller-6.png" alt="Game Controller" width="40" height="40" style="float:right;"></a></header>
+  <div class="right menu">
+    <span class="name">{{fullname}}</span>
+    <span class="profilepic"><img src="{{picture}}" class="ui avatar image"></span>
+    <a id="dashboard" class="item" href="/dashboard"> ダッシュボード <i class="list alternate outline icon"></i></a>
+    <a id="about" class="item" href="/about"> について <i class="address card icon"></i></a>
+    <a id="contact" class="item" href="/contact"> 連絡先 <i class="envelope outline icon"></i></a>
+    <a id="message" class="item" href="/message"> メッセージ <i class="comment icon"></i></a>
+    <a id="logout" class="item" href="/logout"> ログアウト <i class="sign-out icon"></i></a>
+  </div>
+</nav>
+
+<script>
+  document.querySelector("#{{id}}").classList.add("active");
+</script>

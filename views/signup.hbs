@@ -1,0 +1,32 @@
+{{> welcomemenu id="signup"}}
+
+<form class="ui inverted stacked segment form" action="/register" method="POST" enctype="multipart/form-data">
+  <h3 class="ui header">登録</h3>
+  <div class="two fields">
+    <div class="field">
+      <label for="firstName">名前</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?"
+             title="名前（氏名は任意）を、最初の文字を大文字にして入力してください。">
+    </div>
+    <div class="field">
+      <label for="lastName">氏名</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?"
+             title="あなたの姓（2番目の姓は任意）を、最初の文字を大文字にして入力してください。">
+    </div>
+  </div>
+  <div class="field">
+    <label for="email">メール</label>
+    <input placeholder="Email" type="text" name="email" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$"
+     title="有効なメールを入力してください">
+  </div>
+  <div class="field">
+    <label for="password">パスワード</label>
+    <input type="password" name="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,}$"
+       title = "パスワードは6文字以上で、少なくとも1つの大文字と少なくとも1つの数字を含む有効なものを入力してください。">
+  </div>
+    <div class="field">
+      <label>イメージ</label>
+      <input placeholder="Image" type="file" name="picture" required>
+    </div>
+  <button class="ui blue submit button">送信</button>
+</form>

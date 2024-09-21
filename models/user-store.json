@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstName": "Davin",
+      "lastName": "Barron",
+      "email": "davinbarron667@gmail.com",
+      "password": "Penguin897",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1682457807/c5rl1bcj4ofueieyruty.jpg",
+      "id": "f3b1c625-89dd-4a9a-b4da-37e9e85c7064"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Walsh",
+      "email": "ryanwalsh897@gmail.com",
+      "password": "Ryanwalsh23",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1682891255/gppbjhwcfsz5vgtkskgw.jpg",
+      "id": "97e0abfd-3a6d-4c1a-833a-cf8f9b7e570f"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosanne@gmail.com",
+      "password": "Secret1",
+      "picture": "http://res.cloudinary.com/dbarron/image/upload/v1685023473/jhlyjf9d8yhc71sy5grg.jpg",
+      "id": "f05c2c58-85ee-48c1-8706-5bef776cbfa7"
+    }
+  ]
+}

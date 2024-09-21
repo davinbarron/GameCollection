@@ -1,0 +1,25 @@
+<form class="ui grey inverted stacked segment form" action="/game/{{game.id}}/addgenre" method="POST">
+  <div class="five fields">
+    <div class="field">
+      <label for="title">タイトル</label>
+      <input placeholder="タイトル" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label for="developer">デベロッパー</label>
+      <input placeholder="デベロッパー" type="text" name="developer" required>
+    </div>
+    <div class="field">
+      <label for="publisher">出版社</label>
+      <input placeholder="出版社" type="text" name="publisher" required>
+    </div>
+    <div class="field">
+      <label for="genre">ジャンル</label>
+      <input placeholder="ジャンル" type="text" name="genre" required>
+    </div>
+    <div class="field">
+      <label for="release">リリース</label>
+      <input placeholder="リリース" type="text" name="release" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">タイプ追加</button>
+</form>
